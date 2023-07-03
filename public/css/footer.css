@@ -1,0 +1,31 @@
+
+.footer {
+    text-align: center;
+}
+.footer_nav ul li{
+    background-color: var(--colorRojo);
+    width: 100%;
+    margin-bottom: 2px;
+    font-size: 1.2rem;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+@media(min-width: 1024px){
+    .footer{
+        text-align: center;
+        background-color: var(--colorRojo);
+        padding: 60px 0;
+    }
+    .footer_nav ul li{
+        display: inline;
+        margin-bottom: 0px;
+        font-size: 1.2rem;
+        padding: 0 10px;
+        text-transform: capitalize;
+        border-right: solid 1px white;
+    }
+    .footer_nav ul li:last-child{
+        border-right: none;
+    }
+}
